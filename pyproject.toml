@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "atlas-avionics"
+version = "2.0.0"
+description = "ATLAS Autonomous Launch & Termination Architecture System"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+    "structlog>=23.1.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-cov>=4.1.0",
+]
+dev = [
+    "ruff>=0.1.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

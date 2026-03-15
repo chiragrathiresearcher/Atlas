@@ -1,0 +1,25 @@
+# ATLAS Python Requirements
+# Tested on Python 3.11+
+
+# Core scientific computing
+numpy>=1.26.0
+scipy>=1.11.0
+
+# Async support
+asyncio-task-throttle>=1.0.0
+
+# Logging / monitoring
+structlog>=23.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Optional: ROS2 Python bindings (if using ROS2 launch)
+# rclpy  — install via ROS2 distribution
+
+# Optional: ARVS dependencies (if running full ARVS stack)
+# These match ARVS-main requirements
+dimod>=0.12.0           # QUBO formulation
+numpy>=1.26.0           # Already listed
+dataclasses-json>=0.6   # ARVS data type serialization

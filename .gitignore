@@ -1,0 +1,45 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.a
+
+# C++ build
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Python
+.venv/
+venv/
+.env
+*.egg
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Simulation outputs
+/tmp/atlas_*.jsonl
+/tmp/atlas_*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Shared memory (runtime artifacts)
+/dev/shm/atlas_*
+
+# Compiled Python extensions
+*.pyd
