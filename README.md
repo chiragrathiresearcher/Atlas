@@ -239,6 +239,35 @@ ATLAS v2 is RTOS-ready. Tested configurations:
 
 ---
 ---
+---
+
+## ⚠️ Development Status
+
+ATLAS is an **active research prototype** 
+currently under development.
+
+**Current Status:**
+- ✅ Architecture and design complete
+- ✅ ARVS authority integration complete
+- ✅ Hardware specifications implemented
+- ✅ Core guidance and control logic complete
+- 🔄 CI pipeline tests in progress
+- 🔄 Full system integration testing ongoing
+- ⏳ Hardware-in-loop validation pending
+
+This repository represents a **working 
+research prototype** — not a production 
+flight system. Interfaces, assumptions, 
+and internal models may evolve as 
+development progresses.
+
+**Contributions and feedback welcome.**
+
+"Status: ATLAS is an active research system.
+Interfaces, assumptions, and internal models 
+may evolve as experimentation progresses."
+
+---
 
 ## Citation
 
