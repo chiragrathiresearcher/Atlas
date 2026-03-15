@@ -238,6 +238,42 @@ ATLAS v2 is RTOS-ready. Tested configurations:
 6. No `std::random` or `random.random()` in any sensor path — use Allan variance models
 
 ---
+---
 
-## License
+## Citation
 
+If you use ATLAS in your research please cite:
+```bibtex
+@software{rathi2026atlas,
+  author  = {Rathi, Chirag},
+  title   = {ATLAS: Autonomous Launch and 
+             Termination Architecture System},
+  year    = {2026},
+  doi     = {10.5281/zenodo.19039518},
+  url     = {https://doi.org/10.5281/zenodo.19039518},
+  license = {Apache-2.0},
+  orcid   = {0009-0008-1682-4369}
+}
+```
+
+**ATLAS depends on ARVS as its authority layer.
+Please also cite ARVS:**
+```bibtex
+@software{rathi2026arvs,
+  author  = {Rathi, Chirag},
+  title   = {ARVS: Adaptive Robust 
+             Verification System},
+  year    = {2026},
+  doi     = {10.5281/zenodo.19023905},
+  url     = {https://doi.org/10.5281/zenodo.19023905},
+  license = {Apache-2.0},
+  orcid   = {0009-0008-1682-4369}
+}
+```
+
+**Chirag Rathi** — Independent Researcher
+ORCID: 0009-0008-1682-4369
+
+chiragrathiresearcher@gmail.com
+
+Apache-2.0 License
