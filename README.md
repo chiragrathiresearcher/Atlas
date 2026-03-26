@@ -1,5 +1,5 @@
 # ATLAS — Autonomous Launch & Termination Architecture System
-## v2.0 — Complete Autonomous Avionics Stack
+## v1.0 — Autonomous Avionics Stack ( Research grade ) 
 
 [![CI](https://github.com/your-org/ATLAS/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/ATLAS/actions)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)](https://python.org)
